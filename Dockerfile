@@ -1,7 +1,7 @@
 FROM python
 MAINTAINER Mike Chernev <mike@mikechernev.com>
 
-ENV LIBGIT_VERSION 0.25.0
+ENV LIBGIT_VERSION 0.26.0
 
 # Cmake is a dependency for building libgit2
 RUN apt-get update && apt-get install -y cmake
