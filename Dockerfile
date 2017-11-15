@@ -13,9 +13,7 @@ RUN apt-get update && apt-get install -y cmake \
     && cmake . \ 
     && make \
     && make install \
-
 # The python wrapper for libgit2
     && pip install pygit2 \
-
 # Required for updating the libs
     && ldconfig
